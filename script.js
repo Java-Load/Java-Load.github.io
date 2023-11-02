@@ -13,7 +13,7 @@ function downloadAndRedirect(downloadLink) {
 }
 
 function donate() {
-    window.open('https://google.com', '_blank');
+    window.open('https://qiwi.com/n/TURBOKOT1', '_blank');
 }
 
 window.addEventListener('load', function() {
