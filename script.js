@@ -1,4 +1,4 @@
-function downloadAndRedirect(downloadLink) {
+function downloadAndRedirеct(downloadLink) {
     var a = document.createElement('a');
     a.style.display = 'none';
     document.body.appendChild(a);
