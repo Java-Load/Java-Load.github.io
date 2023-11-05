@@ -19,3 +19,14 @@ function donate() {
 window.addEventListener('load', function() {
     console.log('Куда полез? Негодяй :D');
 });
+
+document.addEventListener('contextmenu', function (e) {
+  e.preventDefault();
+});
+
+document.addEventListener('keydown', function (e) {
+  if (e.ctrlKey) {
+    e.preventDefault();
+  }
+});
+
